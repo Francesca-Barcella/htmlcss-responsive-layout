@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
 /* #endregion common rules */
 
 /* #region utilities */
@@ -18,13 +23,36 @@
     --rl-light: #FFFFFF;
 }
 
+.container80 {
+    width: 80%;
+    margin: auto;
+}
+
+.d_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* #endregion utilities */
 
 /* #region debug */
+.debug .nav_sx,
+.debug .nav_dx {
+    border: 1px solid black;
+}
+
 
 /* #endregion debug */
 
 /* #region header */
+header {
+    background-color: var(--rl-primary);
+}
+
+.nav_sx, .nav_dx{
+    padding: 0.5rem;
+}
+
 
 /* #endregion header */
 
