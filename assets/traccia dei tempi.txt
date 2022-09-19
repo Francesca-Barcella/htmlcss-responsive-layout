@@ -1,18 +1,51 @@
-IPOTESI - DESKTOP
-analisi figma desktop - 30/45min
-creazione layout blocchi - 2 ore
+DESKTOP
+    IPOTESI
+    🟊 analisi figma desktop - 30/45min
+    🟊 creazione layout blocchi - 2 ore
 
-REALTA' - DESKTOP
-🟊 Analisi figma
-    • start - h 12:15
-    • end - h 12:45
-    • tot. tempo - 30 min
-🟊 Creazione layout blocchi
-    • start - h 12:48
-    • stop - h 13:23
-        (30 minuti -  fatto header e main demo)
-    • start 13:50
-    • stop 14:50
-        (1 ora - fatte section main plannig - partners - about us - cta e footer)
+    REALTA'
+    🟊 Analisi figma
+        • start - h 12:15
+        • end - h 12:45
+        • tot. tempo - 30 min
+    🟊 Creazione layout blocchi
+        • start - h 12:48
+        • stop - h 13:23
+            (30 minuti -  fatto header e main demo)
+        • start 13:50
+        • stop 14:50
+            (1 ora - fatte section main plannig - partners - about us - cta e footer)
 
-PROBLEM:distanziare i blocchi delle griglie.
+    PROBLEM:distanziare i blocchi delle griglie.
+    Risolto giocando con gap e margin in 20 minuti con ricerca e tentativi.
+
+MOBILE
+    IPOTESI
+    🟊 analisi figma - 30 min
+    🟊 creazione layout blocchi - 45 min
+
+    REALTA'
+    🟊 Analisi figma
+        • start - h 15:50
+        • end - h 16:00
+        • tot. tempo - 10 minuti
+     TO DO LIST:
+     + Spariranno tutti i d_fle w f_wrap
+     + container w_80
+     + col_ w_100%
+     + controllare i vari margin e padding
+     + text-align left per:
+       1° colonna di demo
+       1° colonna strategic planning
+       benefits tutto
+       about_us
+     + text-align center per:
+       2°/3°/4°/5°/6° col di demo
+       2° col di planning
+       tutto partners - about_us - cta - footer
+     + menu esteso che sparisce e appare il burgher menu
+     + creare breakpoint 480px
+     + i colori rimangono invariati
+    🟊 Creazione layout blocchi
+        • start - h 
+        • stop - h 
