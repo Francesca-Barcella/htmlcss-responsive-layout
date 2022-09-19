@@ -12,3 +12,7 @@ REALTA' - DESKTOP
     • stop - h 13:23
         (30 minuti -  fatto header e main demo)
     • start 13:50
+    • stop 14:50
+        (1 ora - fatte section main plannig - partners - about us - cta e footer)
+
+PROBLEM:distanziare i blocchi delle griglie.
