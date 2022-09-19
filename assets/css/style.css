@@ -10,6 +10,10 @@ img {
     margin: auto;
 }
 
+h2{
+    padding-bottom: 2rem;
+}
+
 /* #endregion common rules */
 
 /* #region utilities */
@@ -73,8 +77,7 @@ img {
 }
 
 .debug .planning .col_6,
-.debug .partners .card,
-.debug .benefits [class^="col_"] {
+.debug .partners .card{
     border: 1px solid black;
     height: 150px;
 }
@@ -83,10 +86,7 @@ img {
     padding: 2rem 0;
 }
 
-.debug [class^="col_"] {
-    border: 2px solid var(--rl-secondary);
-    height: 200px;
-}
+
 
 
 /* #endregion debug */
@@ -183,17 +183,31 @@ footer {
     .demo [class^="col_"],
     .planning [class^="col_"],
     .partners [class^="col_"],
-    .benefits [class^="col_"] {
+    .benefits [class^="col_"],
+    .about_us [class^="col_"] {
         width: 100%;
     }
 
     .demo .row,
     .planning .row,
     .partners .card,
-    .benefits .row {
+    .benefits .row,
+    .about_us .container {
         display: block;
     }
 
+    .demo .col_8,
+    .planning .sx {
+        text-align: left;
+    }
+
+    .demo .col_4,
+    .planning .dx,
+    .partners .avatar,
+    .partners .bio,
+    .benefits h2 {
+        text-align: center;
+    }
 
 }
 

@@ -29,6 +29,12 @@ MOBILE
         • start - h 15:50
         • end - h 16:00
         • tot. tempo - 10 minuti
+    🟊 Creazione layout blocchi
+        • start - h 16:00 | 16:35
+        • stop - h 16:30 | 
+        • tot. tempo - 30 minuti
+    !!!DA FARE LA NAV!!!
+
      TO DO LIST:
      + Spariranno tutti i d_fle w f_wrap
      + container w_80
@@ -46,6 +52,23 @@ MOBILE
      + menu esteso che sparisce e appare il burgher menu
      + creare breakpoint 480px
      + i colori rimangono invariati
+
+TABLET
+    IPOTESI
+    🟊 analisi figma - 30 min
+    🟊 creazione layout blocchi - 45 min
+
+    REALTA'
+    🟊 Analisi figma
+        • start - h 
+        • end - h 
+        • tot. tempo - 
     🟊 Creazione layout blocchi
         • start - h 
         • stop - h 
+        • tot. tempo - 
+        
+     TO DO LIST:
+     + 
+     + 
+
