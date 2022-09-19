@@ -65,8 +65,8 @@ TABLET
         • tot. tempo - 5 minuti
     🟊 Creazione layout blocchi
         • start - h 17:20
-        • stop - h 
-        • tot. tempo - 
+        • stop - h 17:28
+        • tot. tempo - 8 minuti
         
      TO DO LIST:
      + demo - rimane come desktop

@@ -10,8 +10,33 @@ img {
     margin: auto;
 }
 
+h1 {
+    font-size: 55px;
+}
+
 h2 {
+    font-size: 50px;
     padding-bottom: 2rem;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 10px;
 }
 
 /* #endregion common rules */
@@ -52,10 +77,6 @@ h2 {
 
 .col_8 {
     width: calc(100% / 12 * 8 - 0.5rem);
-}
-
-.col_12 {
-    width: 100%;
 }
 
 [class^="col_"] {
@@ -178,7 +199,7 @@ footer {
         text-align: center;
     }
 
-    .benefits h2{
+    .benefits h2 {
         text-align: center;
     }
 
@@ -186,49 +207,49 @@ footer {
         width: calc(50% - 1rem) gap: 1rem;
         margin-right: 1rem;
     }
+}
 
-    /* #endregion responsive tablet*/
+/* #endregion responsive tablet*/
 
-    /* #region responsive mobile*/
+/* #region responsive mobile*/
 
-    @media screen and (max-width: 480px) {
-        header {
-            background-color: red;
-        }
-
-        .container {
-            width: 95%;
-        }
-
-        .demo [class^="col_"],
-        .planning [class^="col_"],
-        .partners [class^="col_"],
-        .benefits [class^="col_"],
-        .about_us [class^="col_"] {
-            width: 100%;
-        }
-
-        .demo .row,
-        .planning .row,
-        .partners .card,
-        .benefits .row,
-        .about_us .container {
-            display: block;
-        }
-
-        .demo .col_8,
-        .planning .sx {
-            text-align: left;
-        }
-
-        .demo .col_4,
-        .planning .dx,
-        .partners .avatar,
-        .partners .bio,
-        .benefits h2 {
-            text-align: center;
-        }
-
+@media screen and (max-width: 480px) {
+    header {
+        background-color: red;
     }
 
-    /* #endregion responsive mobile*/
+    .container {
+        width: 95%;
+    }
+
+    .demo [class^="col_"],
+    .planning [class^="col_"],
+    .partners [class^="col_"],
+    .benefits [class^="col_"],
+    .about_us [class^="col_"] {
+        width: 100%;
+    }
+
+    .demo .row,
+    .planning .row,
+    .partners .card,
+    .benefits .row,
+    .about_us .container {
+        display: block;
+    }
+
+    .demo .col_8,
+    .planning .sx {
+        text-align: left;
+    }
+
+    .demo .col_4,
+    .planning .dx,
+    .partners .avatar,
+    .partners .bio,
+    .benefits h2 {
+        text-align: center;
+    }
+}
+
+/* #endregion responsive mobile*/
