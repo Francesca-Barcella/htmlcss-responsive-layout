@@ -113,14 +113,18 @@ header {
     padding: 2rem 0;
 }
 
-.demo [class^="col_"], .benefits [class^="col_"] {
+.demo [class^="col_"],
+.benefits [class^="col_"] {
     background-color: var(--rl-primary-lite);
     border-radius: 0.5rem;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
-.planning, .partners .card, .benefits, .cta {
+.planning,
+.partners .card,
+.benefits,
+.cta {
     background-color: var(--rl-secondary);
 }
 
@@ -138,25 +142,26 @@ header {
     padding: 1rem;
 }
 
-.cta{
- text-align: center;
+.cta {
+    text-align: center;
 }
 
 /* #endregion main */
 
 /* #region footer */
-footer{
+footer {
     background-color: var(--rl-dark-lite);
     color: var(--rl-light);
     text-align: center;
     padding: 2rem 0;
 }
+
 /* #endregion footer */
 
 /* #region responsive tablet*/
 
 @media screen and (max-width: 768px) {
-    header{
+    header {
         background-color: green;
     }
 
@@ -167,25 +172,29 @@ footer{
 /* #region responsive mobile*/
 
 @media screen and (max-width: 480px) {
-    header{
+    header {
         background-color: red;
     }
 
-    .container{
+    .container {
         width: 95%;
     }
 
-    .demo [class^="col_"], .planning [class^="col_"]{
+    .demo [class^="col_"],
+    .planning [class^="col_"],
+    .partners [class^="col_"],
+    .benefits [class^="col_"] {
         width: 100%;
-        background-color: violet;
     }
 
-    .demo .row, .planning .row{
+    .demo .row,
+    .planning .row,
+    .partners .card,
+    .benefits .row {
         display: block;
     }
 
-    
+
 }
 
 /* #endregion responsive mobile*/
-
