@@ -1,5 +1,41 @@
-*{
+/* #region common rules */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #endregion common rules */
+
+/* #region utilities */
+:root {
+    --rl-primary: #0084FD;
+    --rl-primary-lite: #B5DDFF;
+    --rl-secondary: #9792E4;
+    --rl-cta: #FDC15F;
+    --rl-darker: #111111;
+    --rl-dark-lite: #333333;
+    --rl-light: #FFFFFF;
+}
+
+/* #endregion utilities */
+
+/* #region debug */
+
+/* #endregion debug */
+
+/* #region header */
+
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
+
+/* #region responsive */
+
+/* #endregion responsive */
