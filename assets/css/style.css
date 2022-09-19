@@ -140,15 +140,15 @@ header {
  text-align: center;
 }
 
-
-
-
-
-
 /* #endregion main */
 
 /* #region footer */
-
+footer{
+    background-color: var(--rl-dark-lite);
+    color: var(--rl-light);
+    text-align: center;
+    padding: 2rem 0;
+}
 /* #endregion footer */
 
 /* #region responsive */
