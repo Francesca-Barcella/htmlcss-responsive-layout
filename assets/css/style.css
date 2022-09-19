@@ -39,7 +39,7 @@ img {
 }
 
 .col_4 {
-    width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4 - 1rem);
 }
 
 .col_6 {
@@ -47,7 +47,7 @@ img {
 }
 
 .col_8 {
-    width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8 - 1rem);
 }
 
 .col_12 {
@@ -113,9 +113,11 @@ header {
     padding: 2rem 0;
 }
 
-.demo [class^="col_"] {
+.demo [class^="col_"], .benefits [class^="col_"] {
     background-color: var(--rl-primary-lite);
     border-radius: 0.5rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .planning, .partners .card, .benefits, .cta {
