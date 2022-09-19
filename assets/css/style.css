@@ -72,15 +72,22 @@ img {
     height: 150px;
 }
 
-.debug .planning .col_6, .debug .partners .card {
+.debug .planning .col_6,
+.debug .partners .card,
+.debug .benefits [class^="col_"] {
     border: 1px solid black;
     height: 150px;
 }
 
-.debug .heading{
+.debug .heading {
     padding: 2rem 0;
-
 }
+
+.debug [class^="col_"] {
+    border: 2px solid var(--rl-secondary);
+    height: 200px;
+}
+
 
 /* #endregion debug */
 
@@ -94,32 +101,47 @@ header {
     padding: 0.5rem;
 }
 
-
 /* #endregion header */
 
 /* #region main */
+.demo,
+.planning,
+.partners,
+.benefits,
+.about_us,
+.cta {
+    padding: 2rem 0;
+}
+
 .demo [class^="col_"] {
     background-color: var(--rl-primary-lite);
     border-radius: 0.5rem;
 }
 
-.planning {
+.planning, .partners .card, .benefits, .cta {
     background-color: var(--rl-secondary);
 }
 
-.partners .heading{
+.partners .heading {
     text-align: center;
 }
 
 .partners .card {
-    background-color: var(--rl-secondary);
-    border-radius:1rem;
+    border-radius: 1rem;
     margin-bottom: 1rem;
 }
 
-.partners .col_4, .partners .col_8{
+.partners .col_4,
+.partners .col_8 {
     padding: 1rem;
 }
+
+.cta{
+ text-align: center;
+}
+
+
+
 
 
 
