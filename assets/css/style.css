@@ -26,12 +26,12 @@ img {
 .container {
     width: 80%;
     margin: auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .d_flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .f_wrap {
@@ -54,6 +54,11 @@ img {
     width: 100%;
 }
 
+[class^="col_"] {
+    padding: 1rem;
+}
+
+
 /* #endregion utilities */
 
 /* #region debug */
@@ -63,11 +68,19 @@ img {
 }
 
 .debug .demo [class^="col_"] {
-
     border: 1px dashed blue;
     height: 150px;
 }
 
+.debug .planning .col_6, .debug .partners .card {
+    border: 1px solid black;
+    height: 150px;
+}
+
+.debug .heading{
+    padding: 2rem 0;
+
+}
 
 /* #endregion debug */
 
@@ -88,9 +101,25 @@ header {
 .demo [class^="col_"] {
     background-color: var(--rl-primary-lite);
     border-radius: 0.5rem;
-    padding: 1rem;
 }
 
+.planning {
+    background-color: var(--rl-secondary);
+}
+
+.partners .heading{
+    text-align: center;
+}
+
+.partners .card {
+    background-color: var(--rl-secondary);
+    border-radius:1rem;
+    margin-bottom: 1rem;
+}
+
+.partners .col_4, .partners .col_8{
+    padding: 1rem;
+}
 
 
 
