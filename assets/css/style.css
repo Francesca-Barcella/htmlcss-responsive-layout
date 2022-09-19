@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 img {
     max-width: 100%;
     margin: auto;
@@ -35,8 +39,23 @@ h6 {
     font-size: 15px;
 }
 
-p {
-    font-size: 10px;
+p,
+li {
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 2rem;
+    padding: 0.8rem;
 }
 
 /* #endregion common rules */
@@ -83,14 +102,15 @@ p {
     padding: 1rem;
 }
 
+.btn_light {
+    background-color: var(--rl-light);
+    color: var(--rl-darker);
+    word-spacing: 0.4rem;
+}
 
 /* #endregion utilities */
 
 /* #region debug */
-.debug .nav_sx,
-.debug .nav_dx {
-    border: 1px solid black;
-}
 
 .debug .demo [class^="col_"] {
     border: 1px dashed blue;
@@ -114,9 +134,9 @@ header {
     background-color: var(--rl-primary);
 }
 
-.nav_sx,
-.nav_dx {
-    padding: 0.5rem;
+.nav_desktop li a {
+    color: var(--rl-light);
+    text-decoration: none;
 }
 
 /* #endregion header */
