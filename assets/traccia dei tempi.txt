@@ -31,8 +31,8 @@ MOBILE
         • tot. tempo - 10 minuti
     🟊 Creazione layout blocchi
         • start - h 16:00 | 16:35
-        • stop - h 16:30 | 
-        • tot. tempo - 30 minuti
+        • stop - h 16:30 | 16:55
+        • tot. tempo - 30 minuti + 20 minuti = 50 minuti
     !!!DA FARE LA NAV!!!
 
      TO DO LIST:
@@ -60,15 +60,21 @@ TABLET
 
     REALTA'
     🟊 Analisi figma
-        • start - h 
-        • end - h 
-        • tot. tempo - 
+        • start - h 17:15
+        • end - h 17:20
+        • tot. tempo - 5 minuti
     🟊 Creazione layout blocchi
-        • start - h 
+        • start - h 17:20
         • stop - h 
         • tot. tempo - 
         
      TO DO LIST:
-     + 
-     + 
+     + demo - rimane come desktop
+     + plannig - diventa come mobile no d_flex e stessi align-text
+     + partners - rimane come desktop
+     + benifits - diventa a due colonne (col-6 o width 50%)
+     + about_us - rimane come desktop
+     + cta - rimane come desktop
+     + footer - rimane come desktop
+
 

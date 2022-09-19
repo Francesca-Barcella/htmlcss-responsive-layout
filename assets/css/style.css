@@ -85,10 +85,6 @@ h2{
 .debug .heading {
     padding: 2rem 0;
 }
-
-
-
-
 /* #endregion debug */
 
 /* #region header */
@@ -163,6 +159,22 @@ footer {
 @media screen and (max-width: 768px) {
     header {
         background-color: green;
+    }
+
+    .container{
+        width: 95%;
+    }
+
+    .planning .row{
+        display: block;
+    }
+
+    .planning [class^="col_"]{
+        width: 100%;
+    }
+
+    .planning .dx{
+        text-align: center;
     }
 
 }
