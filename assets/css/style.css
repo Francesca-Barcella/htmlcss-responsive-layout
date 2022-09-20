@@ -387,6 +387,14 @@ footer {
         border-radius: 50%;
         object-fit: cover;
     }
+
+    .partners .avatar{
+        width: calc(100% / 12 * 4);
+    }
+
+    .partners .bio{
+        width: calc(100% / 12 * 8);
+    }
 }
 
 /* #endregion responsive tablet*/
