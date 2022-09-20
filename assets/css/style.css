@@ -254,8 +254,25 @@ footer {
         background-color: green;
     }
 
+    .nav_desktop {
+        display: none;
+    }
+
+    .nav_small {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .container {
         width: 95%;
+    }
+
+    .demo .col_8{
+        display: inline-block;
+    }
+
+    .demo .dx{
+        margin-top: 1rem;
     }
 
     .planning .row {
@@ -279,14 +296,6 @@ footer {
         margin-right: 1rem;
     }
 
-    .nav_desktop {
-        display: none;
-    }
-
-    .nav_small {
-        display: flex;
-        justify-content: space-between;
-    }
 }
 
 /* #endregion responsive tablet*/
