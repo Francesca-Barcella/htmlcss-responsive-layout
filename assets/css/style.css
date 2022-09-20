@@ -402,6 +402,13 @@ footer {
     padding: 2rem 0;
 }
 
+footer p{
+    padding: 1.5rem 0;
+}
+
+footer a{
+    color: var(--rl-secondary);
+}
 /* #endregion footer */
 
 /* #region responsive tablet*/
