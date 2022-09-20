@@ -42,7 +42,7 @@ h6 {
 
 p {
     font-size: 15px;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 li {
@@ -129,11 +129,6 @@ a {
 /* #endregion button */
 
 /* #region debug */
-
-.debug .demo [class^="col_"] {
-    border: 1px dashed blue;
-}
-
 .debug .planning .col_6,
 .debug .partners .card {
     border: 1px solid black;
@@ -189,14 +184,10 @@ header {
     color: var(--rl-primary);
 }
 
-.demo .col_8{
-    position: relative;
+.demo .dx{
+    align-self: flex-end;
+    margin-bottom: -1.3rem;
 }
-
-/* .demo img{
-    position: absolute;
-    bottom: 0;
-} */
 
 .planning,
 .partners .card,
