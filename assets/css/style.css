@@ -238,27 +238,25 @@ header {
     color: var(--rl-light);
 }
 
-.planning .sx img{
-    max-width: 320px;
-}
-
 .planning .sx h5{
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
 
-.planning .dx img{
-    max-width: 170px;
+.planning .dx{
+    align-self: flex-end;
 }
 
-.planning .dx{
+.planning .card{
     background-color: var(--rl-light);
     color: var(--rl-darker);
-    text-align: center;
     border-radius: 2rem;
-    margin-top: 6rem;
-    margin-right: 4rem;
-    max-width: 350px;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.planning .card img{
+    max-width: 50%;
 }
 
 .planning .dx h5{
@@ -306,6 +304,12 @@ footer {
 
     .container {
         width: 95%;
+        max-width: 720px;
+    }
+
+    .container_60{
+        width: 100%;
+        max-width: 720px;
     }
 
     .demo .col_8 {
@@ -326,6 +330,10 @@ footer {
 
     .planning .dx {
         text-align: center;
+    }
+
+    .planning .card img{
+        max-width: 100%;
     }
 
     .benefits h2 {
