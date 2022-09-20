@@ -75,6 +75,12 @@ a {
     padding: 1rem;
 }
 
+.container_60{
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+}
+
 .d_flex {
     display: flex;
     justify-content: space-between;
@@ -130,7 +136,7 @@ a {
 /* #endregion button */
 
 /* #region debug */
-.debug .planning .col_6,
+
 .debug .partners .card {
     border: 1px solid black;
     height: 150px;
@@ -140,7 +146,7 @@ a {
     padding: 2rem 0;
 }
 
-.debug .nav_desktop{
+.debug .nav_desktop {
     border: 1px solid black;
 }
 
@@ -164,6 +170,7 @@ header {
     color: var(--rl-light);
     font-size: 35px;
 }
+
 /* #endregion header */
 
 /* #region main */
@@ -184,6 +191,23 @@ header {
     margin-bottom: 1.5rem;
 }
 
+.planning,
+.partners .card,
+.benefits,
+.cta {
+    background-color: var(--rl-secondary);
+}
+
+.partners .card {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.partners .col_4,
+.partners .col_8 {
+    padding: 1rem;
+}
+
 .demo h6 {
     color: var(--rl-primary);
 }
@@ -193,11 +217,11 @@ header {
     margin-bottom: -1.9rem;
 }
 
-.demo img{
+.demo img {
     max-width: 200px;
 }
 
-.demo p{
+.demo p {
     color: #596C7D;
 }
 
@@ -210,25 +234,42 @@ header {
     font-size: 5rem;
 }
 
-.planning,
-.partners .card,
-.benefits,
-.cta {
-    background-color: var(--rl-secondary);
+.planning{
+    color: var(--rl-light);
 }
 
-.partners .heading {
+.planning .sx img{
+    max-width: 320px;
+}
+
+.planning .sx h5{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.planning .dx img{
+    max-width: 170px;
+}
+
+.planning .dx{
+    background-color: var(--rl-light);
+    color: var(--rl-darker);
     text-align: center;
+    border-radius: 2rem;
+    margin-top: 6rem;
+    margin-right: 4rem;
+    max-width: 350px;
 }
 
-.partners .card {
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+.planning .dx h5{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
-.partners .col_4,
-.partners .col_8 {
-    padding: 1rem;
+.planning .dx i{
+    font-size: 2.5rem;
+    color: var(--rl-secondary);
+    padding-top: 1rem;
 }
 
 .cta {
@@ -267,11 +308,11 @@ footer {
         width: 95%;
     }
 
-    .demo .col_8{
+    .demo .col_8 {
         display: inline-block;
     }
 
-    .demo .dx{
+    .demo .dx {
         margin-top: 1rem;
     }
 
