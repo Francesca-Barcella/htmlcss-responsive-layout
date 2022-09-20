@@ -140,12 +140,19 @@ a {
     margin-right: 1rem;
 }
 
-.btn_secondary{
+.btn_secondary {
     background-color: var(--rl-secondary);
     color: var(--rl-light);
-    width: 30%;
     padding: 0.5rem;
     margin: 1rem 0;
+}
+
+.benefits .btn_secondary {
+    width: 30%;
+}
+
+.about_us .btn_secondary {
+    width: 70%;
 }
 
 /* #endregion button */
@@ -213,7 +220,7 @@ header {
     padding: 1rem;
 }
 
-.demo [class^="col_"]{
+.demo [class^="col_"] {
     background-color: var(--rl-primary-lite);
 }
 
@@ -230,11 +237,12 @@ header {
     max-width: 200px;
 }
 
-.demo p, .benefits p {
+.demo p,
+.benefits p {
     color: #596C7D;
 }
 
-.demo h6  {
+.demo h6 {
     margin: 1.5rem 0;
 }
 
@@ -283,7 +291,8 @@ header {
     padding-top: 1rem;
 }
 
-.partners .heading, .benefits .heading {
+.partners .heading,
+.benefits .heading {
     text-align: center;
     padding: 2rem 0;
 }
@@ -297,11 +306,11 @@ header {
     margin: 1rem 0;
 }
 
-.partners .card{
+.partners .card {
     align-items: center;
 }
 
-.partners .bio{
+.partners .bio {
     color: var(--rl-light);
     padding: 2rem;
 }
@@ -313,21 +322,59 @@ header {
     object-fit: cover;
 }
 
-.benefits [class^="col_"]{
+.benefits [class^="col_"] {
     background-color: var(--rl-light);
 }
 
-.benefits h4{
+.benefits h4 {
     color: var(--rl-light);
 }
 
-.benefits h2, .benefits h6{
+.benefits h2,
+.benefits h6 {
     color: var(--rl-secondary);
     padding-bottom: 1rem;
 }
 
-.benefits a{
+.benefits a,
+.about_us a {
     font-weight: bold;
+}
+
+.about_us h3 {
+    color: var(--rl-secondary);
+    padding-bottom: 2rem;
+}
+
+.about_us .col_8>p {
+    padding-bottom: 2rem;
+}
+
+.about_us img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about_us h5 {
+    color: var(--rl-secondary);
+}
+
+.about_us i {
+    margin-right: 1rem;
+}
+
+/* .about_us.avatar {
+    position: absolute;
+} */
+
+.about_us .avatar i {
+    color: var(--rl-secondary);
+    font-size: 5rem;
+    position: relative;
+    bottom: 180px;
+    right: 50px;
 }
 
 .cta {
@@ -413,11 +460,11 @@ footer {
         object-fit: cover;
     }
 
-    .partners .avatar{
+    .partners .avatar {
         width: calc(100% / 12 * 4);
     }
 
-    .partners .bio{
+    .partners .bio {
         width: calc(100% / 12 * 8);
     }
 }
@@ -479,7 +526,7 @@ footer {
         padding: 1.5rem 0rem;
     }
 
-    .partners h2{
+    .partners h2 {
         text-align: left;
     }
 }
