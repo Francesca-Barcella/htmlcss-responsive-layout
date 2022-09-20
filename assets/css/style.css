@@ -75,7 +75,7 @@ a {
     padding: 1rem;
 }
 
-.container_60{
+.container_60 {
     width: 60%;
     margin: auto;
     padding: 1rem;
@@ -234,20 +234,20 @@ header {
     font-size: 5rem;
 }
 
-.planning{
+.planning {
     color: var(--rl-light);
 }
 
-.planning .sx h5{
+.planning .sx h5 {
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
 
-.planning .dx{
+.planning .dx {
     align-self: flex-end;
 }
 
-.planning .card{
+.planning .card {
     background-color: var(--rl-light);
     color: var(--rl-darker);
     border-radius: 2rem;
@@ -255,16 +255,16 @@ header {
     padding: 1.5rem;
 }
 
-.planning .card img{
+.planning .card img {
     max-width: 50%;
 }
 
-.planning .dx h5{
+.planning .dx h5 {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
-.planning .dx i{
+.planning .dx i {
     font-size: 2.5rem;
     color: var(--rl-secondary);
     padding-top: 1rem;
@@ -307,7 +307,7 @@ footer {
         max-width: 720px;
     }
 
-    .container_60{
+    .container_60 {
         width: 100%;
         max-width: 720px;
     }
@@ -332,7 +332,7 @@ footer {
         text-align: center;
     }
 
-    .planning .card img{
+    .planning .card img {
         max-width: 100%;
     }
 
@@ -341,7 +341,8 @@ footer {
     }
 
     .benefits [class^="col_"] {
-        width: calc(50% - 1rem) gap: 1rem;
+        width: calc(50% - 1rem);
+        gap: 1rem;
         margin-right: 1rem;
     }
 
@@ -356,8 +357,10 @@ footer {
         background-color: red;
     }
 
-    .container {
-        width: 95%;
+    .container,
+    .container_60 {
+        width: 100%;
+        max-width: 470px;
     }
 
     .demo [class^="col_"],
@@ -366,6 +369,7 @@ footer {
     .benefits [class^="col_"],
     .about_us [class^="col_"] {
         width: 100%;
+        max-width: 470px;
     }
 
     .demo .row,
@@ -388,6 +392,19 @@ footer {
     .benefits h2 {
         text-align: center;
     }
+
+    .planning .card img,{
+        width: 100%;
+    }
+
+    .planning .card{
+        width: 100%;
+    }
+
+    .planning [class^="col_"]{
+        padding: 1.5rem 0rem;
+    }
+
 }
 
 /* #endregion responsive mobile*/
