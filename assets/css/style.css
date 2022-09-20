@@ -376,6 +376,20 @@ header {
 
 .cta {
     text-align: center;
+    color: var(--rl-light);
+}
+
+.cta h1{
+    color: var(--rl-cta);
+}
+
+.cta p, .cta h4, .cta h1, .cta .btn{
+    margin: 1rem 0;
+}
+
+.cta a{
+    color: var(--rl-secondary);
+    width: 20%;
 }
 
 /* #endregion main */
@@ -463,17 +477,21 @@ footer {
 
     .partners .bio {
         width: calc(100% / 12 * 8);
-    } 
+    }
 
-    .about_us img{
+    .about_us img {
         width: 180px;
         height: 180px;
         border-radius: 50%;
         object-fit: cover;
     }
 
-    .about_us [class^="col_"]{
+    .about_us [class^="col_"] {
         width: calc(100% / 12 * 6)
+    }
+
+    .cta a{
+        width: 40%;
     }
 }
 
