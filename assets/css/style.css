@@ -28,20 +28,19 @@ h3 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h6 {
     font-size: 18px;
-    margin: 1.5rem 0;
 }
 
 p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.8rem;
 }
 
@@ -90,6 +89,10 @@ a {
     flex-wrap: wrap;
 }
 
+.col_2 {
+    width: calc(100% / 12 * 2 - 1rem);
+}
+
 .col_4 {
     width: calc(100% / 12 * 4 - 1rem);
 }
@@ -100,6 +103,10 @@ a {
 
 .col_8 {
     width: calc(100% / 12 * 8 - 0.5rem);
+}
+
+.col_10 {
+    width: calc(100% / 12 * 10 - 1rem);
 }
 
 [class^="col_"] {
@@ -136,11 +143,6 @@ a {
 /* #endregion button */
 
 /* #region debug */
-
-.debug .partners .card {
-    border: 1px solid black;
-    height: 150px;
-}
 
 .debug .heading {
     padding: 2rem 0;
@@ -199,7 +201,7 @@ header {
 }
 
 .partners .card {
-    border-radius: 1rem;
+    border-radius: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -223,6 +225,10 @@ header {
 
 .demo p {
     color: #596C7D;
+}
+
+.demo h6 {
+    margin: 1.5rem 0;
 }
 
 .demo .col_4 {
@@ -268,6 +274,35 @@ header {
     font-size: 2.5rem;
     color: var(--rl-secondary);
     padding-top: 1rem;
+}
+
+.partners .heading {
+    text-align: center;
+}
+
+.partners h4 {
+    color: var(--rl-secondary);
+    margin-bottom: 1rem;
+}
+
+.partners h6 {
+    margin: 1rem 0;
+}
+
+.partners .card{
+    align-items: center;
+}
+
+.partners .bio{
+    color: var(--rl-light);
+    padding: 2rem;
+}
+
+.partners img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .cta {
@@ -346,6 +381,12 @@ footer {
         margin-right: 1rem;
     }
 
+    .partners img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 }
 
 /* #endregion responsive tablet*/
@@ -393,18 +434,17 @@ footer {
         text-align: center;
     }
 
-    .planning .card img,{
+    .planning .card img {
         width: 100%;
     }
 
-    .planning .card{
+    .planning .card {
         width: 100%;
     }
 
-    .planning [class^="col_"]{
+    .planning [class^="col_"] {
         padding: 1.5rem 0rem;
     }
-
 }
 
 /* #endregion responsive mobile*/
