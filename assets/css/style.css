@@ -20,7 +20,6 @@ h1 {
 
 h2 {
     font-size: 50px;
-    padding-bottom: 2rem;
 }
 
 h3 {
@@ -119,6 +118,7 @@ a {
 .btn {
     display: inline-block;
     border-radius: 2rem;
+    text-align: center;
 }
 
 .btn_light {
@@ -140,13 +140,17 @@ a {
     margin-right: 1rem;
 }
 
+.btn_secondary{
+    background-color: var(--rl-secondary);
+    color: var(--rl-light);
+    width: 30%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
 /* #endregion button */
 
 /* #region debug */
-
-.debug .heading {
-    padding: 2rem 0;
-}
 
 .debug .nav_desktop {
     border: 1px solid black;
@@ -187,7 +191,6 @@ header {
 
 .demo [class^="col_"],
 .benefits [class^="col_"] {
-    background-color: var(--rl-primary-lite);
     border-radius: 0.5rem;
     gap: 1rem;
     margin-bottom: 1.5rem;
@@ -210,6 +213,10 @@ header {
     padding: 1rem;
 }
 
+.demo [class^="col_"]{
+    background-color: var(--rl-primary-lite);
+}
+
 .demo h6 {
     color: var(--rl-primary);
 }
@@ -223,11 +230,11 @@ header {
     max-width: 200px;
 }
 
-.demo p {
+.demo p, .benefits p {
     color: #596C7D;
 }
 
-.demo h6 {
+.demo h6  {
     margin: 1.5rem 0;
 }
 
@@ -276,8 +283,9 @@ header {
     padding-top: 1rem;
 }
 
-.partners .heading {
+.partners .heading, .benefits .heading {
     text-align: center;
+    padding: 2rem 0;
 }
 
 .partners h4 {
@@ -303,6 +311,23 @@ header {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.benefits [class^="col_"]{
+    background-color: var(--rl-light);
+}
+
+.benefits h4{
+    color: var(--rl-light);
+}
+
+.benefits h2, .benefits h6{
+    color: var(--rl-secondary);
+    padding-bottom: 1rem;
+}
+
+.benefits a{
+    font-weight: bold;
 }
 
 .cta {
@@ -452,6 +477,10 @@ footer {
 
     .planning [class^="col_"] {
         padding: 1.5rem 0rem;
+    }
+
+    .partners h2{
+        text-align: left;
     }
 }
 
