@@ -96,7 +96,7 @@ a {
 }
 
 [class^="col_"] {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 /* #endregion utilities */
@@ -122,7 +122,7 @@ a {
     text-align: center;
 }
 
-.btn_primary i{
+.btn_primary i {
     margin-right: 1rem;
 }
 
@@ -180,13 +180,22 @@ header {
     margin-bottom: 1rem;
 }
 
-.demo h6{
+.demo h6 {
     color: var(--rl-primary);
 }
 
-.demo .dx{
+.demo .dx {
     align-self: flex-end;
-    margin-bottom: -1.3rem;
+    margin-bottom: -1.9rem;
+}
+
+.demo .col_4 {
+    text-align: center;
+}
+
+.demo .col_4 i {
+    color: var(--rl-primary);
+    font-size: 5rem;
 }
 
 .planning,
