@@ -10,23 +10,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="debug">
     <header id="site_header">
-        <div class="container nav_desktop d_flex">
-            <div class="nav_sx"><img src="./assets/img/logo.png" alt=""></div>
-            <div class="nav_dx d_flex">
-                <ul class="d_flex">
-                    <li><a href="#">Planning</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-                <a class="btn btn_light" href="#">Get Started</a>
+        <nav class="container">
+            <div class="nav_desktop d_flex">
+                <div class="nav_sx"><a href="#"><img src="./assets/img/logo.png" alt=""></a></div>
+                <div class="nav_dx d_flex">
+                    <ul class="d_flex">
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                    <a class="btn btn_light" href="#">Get Started</a>
+                </div>
             </div>
-        </div>
-
+            <div class="nav_small">
+                <div><a href="#"><img src="./assets/img/logo.png" alt=""></a></div>
+                <div><a href="#"><i class="fa-solid fa-bars" id="menu_burger"></i></a></div>
+            </div>
+        </nav>
     </header>
 
     <main id="site_main">

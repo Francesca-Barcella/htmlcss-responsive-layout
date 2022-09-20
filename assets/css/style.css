@@ -53,11 +53,6 @@ a {
     text-decoration: none;
 }
 
-.btn {
-    border-radius: 2rem;
-    padding: 0.8rem;
-}
-
 /* #endregion common rules */
 
 /* #region utilities */
@@ -102,13 +97,20 @@ a {
     padding: 1rem;
 }
 
+/* #endregion utilities */
+
+/* #region button */
+.btn {
+    border-radius: 2rem;
+    padding: 0.8rem;
+}
+
 .btn_light {
     background-color: var(--rl-light);
     color: var(--rl-darker);
     word-spacing: 0.4rem;
 }
-
-/* #endregion utilities */
+/* #endregion button */
 
 /* #region debug */
 
@@ -137,6 +139,15 @@ header {
 .nav_desktop li a {
     color: var(--rl-light);
     text-decoration: none;
+}
+
+#menu_burger{
+    color: var(--rl-light);
+    font-size: 35px;
+}
+
+.nav_small{
+    display: none;
 }
 
 /* #endregion header */
@@ -226,6 +237,15 @@ footer {
     .benefits [class^="col_"] {
         width: calc(50% - 1rem) gap: 1rem;
         margin-right: 1rem;
+    }
+
+    .nav_desktop{
+        display: none;
+    }
+
+    .nav_small{
+        display: flex;
+        justify-content: space-between;
     }
 }
 
