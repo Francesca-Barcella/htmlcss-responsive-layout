@@ -36,15 +36,17 @@ h5 {
 }
 
 h6 {
-    font-size: 15px;
+    font-size: 18px;
+    margin: 1.5rem 0;
 }
 
-p,
-li {
+p {
     font-size: 15px;
+    line-height: 2rem;
 }
 
 li {
+    font-size: 15px;
     list-style: none;
     padding: 1rem;
 }
@@ -110,13 +112,26 @@ a {
     color: var(--rl-darker);
     word-spacing: 0.4rem;
 }
+
+.btn_primary {
+    display: inline-block;
+    background-color: var(--rl-primary);
+    color: var(--rl-light);
+    width: 50%;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.btn_primary i{
+    margin-right: 1rem;
+}
+
 /* #endregion button */
 
 /* #region debug */
 
 .debug .demo [class^="col_"] {
     border: 1px dashed blue;
-    height: 150px;
 }
 
 .debug .planning .col_6,
@@ -141,12 +156,12 @@ header {
     text-decoration: none;
 }
 
-#menu_burger{
+#menu_burger {
     color: var(--rl-light);
     font-size: 35px;
 }
 
-.nav_small{
+.nav_small {
     display: none;
 }
 
@@ -169,6 +184,19 @@ header {
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+.demo h6{
+    color: var(--rl-primary);
+}
+
+.demo .col_8{
+    position: relative;
+}
+
+/* .demo img{
+    position: absolute;
+    bottom: 0;
+} */
 
 .planning,
 .partners .card,
@@ -239,11 +267,11 @@ footer {
         margin-right: 1rem;
     }
 
-    .nav_desktop{
+    .nav_desktop {
         display: none;
     }
 
-    .nav_small{
+    .nav_small {
         display: flex;
         justify-content: space-between;
     }
